@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    font-size: 18px;
+
+    
+}
+
+.paragraph {
+    background-color: aliceblue;
+
+    border-radius: 30px;
+    padding: 20px;
+
+    width: 80%;
+    margin: 0 auto;
+}
+
+.image {
+    display: block;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.8;
+}
+
+.paragraph {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+        border-radius: 30px;
+
+}
+
+.image-container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+
+/* ===== スマホ用（iPhoneサイズ） ===== */
+@media (max-width: 480px) {
+
+    .paragraph {
+        width: 90%;
+        padding: 25px 18px;
+        border-radius: 20px;
+    }
+
+    .title h1 {
+        font-size: 24px;
+    }
+
+    .text {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .image-container {
+        width: 90%;
+    }
+
+    .image {
+        border-radius: 20px;
+    }
+}
